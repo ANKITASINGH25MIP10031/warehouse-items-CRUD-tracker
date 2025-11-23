@@ -1,4 +1,4 @@
-#Warehouse Inventory Tracker
+# Warehouse Inventory Tracker
 ## Overview
 
 The Warehouse Inventory Tracker is a browser-based inventory management system built entirely with HTML, CSS, and JavaScript.
@@ -6,8 +6,7 @@ It helps warehouse staff manage stock efficiently by providing tools for adding,
 All data is stored in the browser using localStorage, meaning no backend server is required.
 
 ## Key Features 
-1. Inventory Management
-   
+1. Inventory Management   
 Add new items with details like name, category, quantity, supplier, location, minimum stock level, and price.
 
 Edit items directly to update quantities or information.
@@ -15,9 +14,7 @@ Edit items directly to update quantities or information.
 Delete items, permanently removing them from localStorage.
 
 2.Real-Time Dashboard
-
 Shows live statistics including:
-
 Total number of items
 
 Total inventory value (auto-calculated)
