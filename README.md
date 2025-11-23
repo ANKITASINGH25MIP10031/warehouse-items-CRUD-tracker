@@ -30,37 +30,41 @@ Import a JSON file to restore or load new inventory data.
 
 ## Technologies Used
 HTML5 – structure and layout
+
 CSS3 – styling, theming, responsive design
+
 JavaScript  – app logic, DOM manipulation, localStorage handling
 
 ## How to Install & Run
 Download or copy the project files.
+
 Open index.html in any modern browser (Chrome, Edge, Firefox, Safari).
+
 The system loads instantly—no setup or server required.
 
 ## Testing Guide (CRUD + Features)
-✔ Create
+1. Create
 Add several items using the form.
 Confirm they appear immediately in the inventory table.
 
-✔ Read
+2.Read
 Use the search bar to find items.
 Apply category filters.
 Sort items by name, quantity, or date to verify correct ordering.
 
-✔ Update
+3.Update
 Click Edit on any item.
 Modify values and save.
 Ensure the table and dashboard update instantly.
 
-✔ Delete
+4.Delete
 Remove an item.
 Confirm it disappears and does NOT return after refreshing.
 
-✔ Import / Export
+5.Import / Export
 Export data as CSV or JSON.
 Import a JSON file and verify items load correctly.
 
-✔ Data Persistence
+6. Data Persistence
 Refresh the page.
 All items should remain stored, thanks to localStorage.
