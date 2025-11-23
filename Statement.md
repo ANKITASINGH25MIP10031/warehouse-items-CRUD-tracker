@@ -43,8 +43,13 @@ This scope is designed to cover essential inventory management functionality wit
 
 
 warehouse-inventory-tracker/
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 ├── README.md
+
 ├── statement.md
