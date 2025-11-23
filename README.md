@@ -1,82 +1,99 @@
-# Warehouse Inventory Tracker
+#Warehouse Inventory Tracker
+## Overview
 
-## 📌 Overview of the Project
-The **Warehouse Inventory Tracker** is a web-based inventory management system designed to help warehouse staff efficiently track stock levels, item details, categories, pricing, and inventory value.  
-The system is fully client-side and uses **HTML, CSS, and JavaScript**, with **localStorage** for data persistence.
+The Warehouse Inventory Tracker is a browser-based inventory management system built entirely with HTML, CSS, and JavaScript.
+It helps warehouse staff manage stock efficiently by providing tools for adding, updating, deleting, searching, and organizing items.
+All data is stored in the browser using localStorage, meaning no backend server is required.
 
----
+## Key Features 
+1. Inventory Management
+   
+Add new items with details like name, category, quantity, supplier, location, minimum stock level, and price.
 
-## ✨ Features
-- Add, edit, and delete warehouse items  
-- Real-time dashboard with:
-  - total items
-  - total inventory value
-  - low stock alerts  
-- Search and filter items  
-- Sort by name, quantity, or date  
-- Category filtering  
-- Customizable low-stock threshold  
-- Price tracking  
-- Export inventory as CSV or JSON  
-- Import inventory from JSON    
+Edit items directly to update quantities or information.
 
----
+Delete items, permanently removing them from localStorage.
 
-## 🛠 Technologies / Tools Used
-- **HTML5**  
-- **CSS3**  
-- **JavaScript   
+2.Real-Time Dashboard
+
+Shows live statistics including:
+
+Total number of items
+
+Total inventory value (auto-calculated)
+
+Low-stock alerts based on user-defined minimum stock levels
+
+3.Search, Filter & Sort
+
+Search across item names, categories, suppliers, and locations.
+
+Filter by specific categories.
+
+Sort items by name, quantity, or date added.
+
+Toggle to show only low-stock items.
+
+ 4.Import / Export
+
+Export current inventory as CSV or JSON for backup or sharing.
+
+Import a JSON file to restore or load new inventory data.
 
 
-## 🚀 Steps to Install & Run the Project
+## Technologies Used
 
+HTML5 – structure and layout
 
+CSS3 – styling, theming, responsive design
 
-Instructions for Testing
-To verify that the system works correctly, test the following:
+JavaScript  – app logic, DOM manipulation, localStorage handling
 
-✔ Create Operation
+## How to Install & Run
 
-Add several sample items
+Download or copy the project files.
 
-Check that they appear in the inventory list
-✔ Read Operation
+Open index.html in any modern browser (Chrome, Edge, Firefox, Safari).
 
-Search for items
+The system loads instantly—no setup or server required.
 
-Filter by category
+## Testing Guide (CRUD + Features)
+✔ Create
 
-Sort by quantity or name
+Add several items using the form.
 
-✔ Update Operation
+Confirm they appear immediately in the inventory table.
 
-Edit an item
+✔ Read
 
-Confirm that changes update immediately
+Use the search bar to find items.
 
-✔ Delete Operation
+Apply category filters.
 
-Delete an item
+Sort items by name, quantity, or date to verify correct ordering.
 
-Ensure it is removed permanently from localStorage
+✔ Update
 
-✔ Import/Export
+Click Edit on any item.
 
-Export inventory as CSV & JSON
+Modify values and save.
 
-Import JSON back into the system
+Ensure the table and dashboard update instantly.
 
-✔ Responsive UI
+✔ Delete
 
-Test layout on mobile screens
+Remove an item.
 
-Test on desktop screens
+Confirm it disappears and does NOT return after refreshing.
+
+✔ Import / Export
+
+Export data as CSV or JSON.
+
+Import a JSON file and verify items load correctly.
 
 ✔ Data Persistence
 
-Refresh the browser
+Refresh the page.
 
-Confirm that items remain stored in localStorage
-
-
-
+All items should remain stored, thanks to localStorage.
